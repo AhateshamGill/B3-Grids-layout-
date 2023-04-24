@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        .container{
+            width: 70%;
+            margin: auto;
+            border: 2px solid #ff0000;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            /* grid-template-rows: 200px 220px; */
+            grid-auto-rows: 220px;
+            /* text-align: center; */
+            /* padding: 10px 0; */
+            background-color: black;
+            gap: 0.3rem;
+        }
+
+        .child{
+            text-align: center;
+            line-height: 220px;
+        }
+
+        .child1{
+            background-color: blueviolet;
+            background-image: url(https://img.freepik.com/free-vector/app-development-concept-with-laptop_23-2148699364.jpg?size=626&ext=jpg&ga=GA1.1.248155838.1682326548&semt=ais);
+            background-position: center;
+            background-size: cover;
+            /* background-origin: content-box; */
+            /* background-size: cover; */
+            /* width: 210px; */
+            /* height: 220px; */
+        }
+
+        .child2{
+            background-color: rgb(144, 179, 47);
+            background-image: url(https://img.freepik.com/free-vector/content-structure-concept-illustration_114360-5252.jpg?size=626&ext=jpg&ga=GA1.1.248155838.1682326548&semt=ais);
+            background-position: center;
+            background-size: cover;
+            /* background-repeat: no-repeat; */
+        }
+
+        .child3{
+            background-color: rgb(221, 182, 10);
+            background-image: url(https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?size=626&ext=jpg&ga=GA1.1.248155838.1682326548&semt=ais);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .child4{
+            background-color: rgb(22, 194, 206);
+            background-image: url(https://img.freepik.com/free-vector/new-app-development-desktop_23-2148684987.jpg?size=626&ext=jpg&ga=GA1.1.248155838.1682326548&semt=ais);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .child5{
+            background-color: rgb(66, 46, 4);
+            background-image: url(https://img.freepik.com/premium-vector/hand-drawn-flat-design-saas-illustration_23-2149242068.jpg?size=626&ext=jpg&ga=GA1.1.248155838.1682326548&semt=ais);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .child6{
+            background-color: rgb(107, 42, 4);
+            background-image: url(https://img.freepik.com/free-vector/advanced-computer-skills-abstract-concept-illustration_335657-2255.jpg?size=626&ext=jpg&ga=GA1.1.248155838.1682326548&semt=ais);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .child7{
+            background-color: rgb(127, 241, 21);
+            background-image: url(https://img.freepik.com/free-vector/pair-programming-concept-illustration_114360-1812.jpg?size=626&ext=jpg&ga=GA1.1.248155838.1682326548&semt=ais);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .child8{
+            background-color: rgb(41, 7, 233);
+            background-image: url(https://img.freepik.com/free-vector/back-end-development-concept-software-development-process-website-interface-design-improvement-programming-coding-it-profession-isolated-flat-vector-illustration_613284-1064.jpg?size=626&ext=jpg&ga=GA1.1.248155838.1682326548&semt=ais);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .child9{
+            background-color: rgb(245, 115, 9);
+            background-image: url(https://img.freepik.com/free-vector/programming-concept-illustration_114360-1670.jpg?size=626&ext=jpg&ga=GA1.1.248155838.1682326548&semt=ais);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .child10{
+            background-color: rgb(20, 43, 4);
+            background-image: url(https://img.freepik.com/free-vector/programmer-concept-idea-coding-testing-writing-program-using-internet-different-software-website-development-optimization-isolated-vector-illustration_613284-2459.jpg?size=626&ext=jpg&ga=GA1.2.248155838.1682326548&semt=ais);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .child11{
+            background-color: rgb(95, 74, 4);
+            background-image: url(https://img.freepik.com/premium-photo/web-development-programming-code-app-development-web-design-computer-seo-3d-background_125322-458.jpg?size=626&ext=jpg&ga=GA1.1.248155838.1682326548&semt=ais);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .child12{
+            background-color: rgb(5, 126, 106);
+            background-image: url(https://img.freepik.com/premium-photo/programmer-with-3d-computer-green-code_124008-62.jpg?size=626&ext=jpg&ga=GA1.1.248155838.1682326548&semt=ais);
+            background-position: center;
+            background-size: cover;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="child child1"></div>
+        <div class="child child2"></div>
+        <div class="child child3"></div>
+        <div class="child child4"></div>
+        <div class="child child5"></div>
+        <div class="child child6"></div>
+        <div class="child child7"></div>
+        <div class="child child8"></div>
+        <div class="child child9"></div>
+        <div class="child child10"></div>
+        <div class="child child11"></div>
+        <div class="child child12"></div>
+    </div>
+</body>
+</html>
